@@ -5,6 +5,7 @@
  ![image](https://user-images.githubusercontent.com/51864985/122884482-ca5fb580-d370-11eb-8523-c6831ffa07f4.png)
 
 * LINE Bot專案設定
+
   * Procfile，告訴Heroku如何啟動這個app
   * requirements.txt，告訴Heroku這個app的環境需要哪些其他套件
   * runtime.txt，告訴Heroku這個app指定的python版本
