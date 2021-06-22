@@ -163,7 +163,7 @@ line_bot_api.reply_message(reply_token, TextSendMessage(text="查詢格式為: �
 
   https://sites.google.com/jes.mlc.edu.tw/ljj/%E9%A6%96%E9%A0%81?authuser=0
 * 課程教材
-*  使用API
+* 使用API
   * 台銀匯率 https://rate.bot.com.tw/xrt
   * 氣象資料 https://opendata.cwb.gov.tw/index
 ## 加個好友吧
