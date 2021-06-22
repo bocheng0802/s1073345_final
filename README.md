@@ -31,10 +31,9 @@
  ![image](https://user-images.githubusercontent.com/51864985/122882701-0a259d80-d36f-11eb-8383-397ca6b36065.png)
 ## Details of the approach
 ## Results
-![Screenshot_20210622-163431_LINE](https://user-images.githubusercontent.com/51864985/122892814-4dd0d500-d378-11eb-82a3-03437772e374.jpg)
+![image](https://user-images.githubusercontent.com/51864985/122893195-af913f00-d378-11eb-89b6-20e2d36ccc07.png)
 
-![Screenshot_20210622-163440_LINE](https://user-images.githubusercontent.com/51864985/122892761-40b3e600-d378-11eb-80a4-2d5f12bdb407.jpg)
-
+![image](https://user-images.githubusercontent.com/51864985/122893093-94beca80-d378-11eb-9889-b68afa65eb68.png)
 ## References
 * 吉哥的分享
 
