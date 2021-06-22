@@ -36,7 +36,9 @@
   * 進行翻譯
 
 ![image](https://user-images.githubusercontent.com/51864985/122893195-af913f00-d378-11eb-89b6-20e2d36ccc07.png)
+
   * 查詢天氣
+
 ![image](https://user-images.githubusercontent.com/51864985/122893093-94beca80-d378-11eb-9889-b68afa65eb68.png)
 ## References
 * 吉哥的分享
