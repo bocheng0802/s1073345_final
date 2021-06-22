@@ -39,5 +39,6 @@
 * API使用
   * 中央氣象局 https://www.cwb.gov.tw/rss/forecast/36_05.xml
   * google翻譯api
+  * 台銀匯率 https://rate.bot.com.tw/xrt/all/day
 ## 成為好友吧
 ![image](https://user-images.githubusercontent.com/51864985/122883500-d8f99d00-d36f-11eb-899c-0bd98c71e570.png)
