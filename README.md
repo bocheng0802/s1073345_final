@@ -25,7 +25,7 @@
 
  ![image](https://user-images.githubusercontent.com/51864985/122882701-0a259d80-d36f-11eb-8383-397ca6b36065.png)
 ## Details of the approach
-* 建立Flask物件，設定Channel secret及Channel access token
+* 建立Flask物件，連接linebot的Channel secret及Channel access token
 ```python
 app = Flask(__name__)
 # LINE BOT info
