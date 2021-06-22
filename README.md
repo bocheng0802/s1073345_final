@@ -152,9 +152,6 @@ if(message[:2] == '天氣'):
 ```python
 line_bot_api.reply_message(reply_token, TextSendMessage(text="查詢格式為: 天氣 縣市\n輸入貨幣名稱 ex:美元、歐元\n翻譯格式:\n中文 0:欲翻譯之句子\n英文 1:欲翻譯之句子\n日文 2:欲翻譯之句子\n韓文 3:欲翻譯之句子\n法文 4:欲翻譯之句子\n德文 5:欲翻譯之句子\n俄文 6:欲翻譯之句子\n泰文 7:欲翻譯之句子"))
 ```
-if __name__=='__main__':
-    app.run()
-
 ## Results
 * 說明輸入格式
   * 查詢匯率
