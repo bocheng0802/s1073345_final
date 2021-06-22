@@ -4,8 +4,7 @@
   * 創建Linebot
   
   ![image](https://user-images.githubusercontent.com/51864985/122884482-ca5fb580-d370-11eb-8523-c6831ffa07f4.png)
-  
-  *對話回應
+  * 對話回應
   
   ![image](https://user-images.githubusercontent.com/51864985/122884933-34785a80-d371-11eb-8262-6acf68e4b998.png)
   ![image](https://user-images.githubusercontent.com/51864985/122884956-38a47800-d371-11eb-9e12-e739751725a9.png)
