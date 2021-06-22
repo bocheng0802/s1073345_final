@@ -7,3 +7,8 @@
 ![image](https://user-images.githubusercontent.com/51864985/122882701-0a259d80-d36f-11eb-8383-397ca6b36065.png)
 
 ## Build process
+## Details of the approach
+## Results
+## References
+## 成為好友吧
+![image](https://user-images.githubusercontent.com/51864985/122883500-d8f99d00-d36f-11eb-899c-0bd98c71e570.png)
