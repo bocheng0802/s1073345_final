@@ -30,8 +30,22 @@
 
  ![image](https://user-images.githubusercontent.com/51864985/122882701-0a259d80-d36f-11eb-8383-397ca6b36065.png)
 ## Details of the approach
-```
-* s1073345_final.py
+```py
+from flask import Flask, request, abort
+from linebot import (
+    LineBotApi, WebhookHandler
+)
+from linebot.exceptions import (
+    InvalidSignatureError
+)
+from linebot.models import *
+import json,requests
+from googletrans import Translator
+
+app = Flask(__name__)
+# LINE BOT info
+line_bot_api = LineBotApi('QENbrXK2ILlWZcsE66gdCG9JZErWh89eaiba8ca9cpbIg+Ief6A6XgOuXIQlB0Z0D6InAMaZeoUf2wp7O9CZFNtZP5CNUW6JxRqOtJLczNGI/za2aNxvPUgAwDDe99vIQPzP7A9ckaS95cSN6oaSKQdB04t89/1O/w1cDnyilFU=')
+handler = WebhookHandler('8d69c575546b27890e4fd909143a8e8c')
 ```
 ## Results
 * 說明輸入格式
