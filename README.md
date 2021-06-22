@@ -2,6 +2,7 @@
 ## Build process
 * 前端
   * 創建Linebot
+  
   ![image](https://user-images.githubusercontent.com/51864985/122884482-ca5fb580-d370-11eb-8523-c6831ffa07f4.png)
 ## Introduction
 * 主題發想來源：在出遊的時候常常會遇到各種奇怪的問題，像是不知道當地天氣如何或是花完外幣但還想繼續購物，基於以上種種原因讓我想製作一個旅遊機器人。
@@ -9,7 +10,6 @@
 * 使用流程:
 
 ![image](https://user-images.githubusercontent.com/51864985/122882701-0a259d80-d36f-11eb-8383-397ca6b36065.png)
-
 ## Details of the approach
 ## Results
 ## References
