@@ -102,6 +102,24 @@ def handle_message(event):
         result = translator.translate(a[1],dest='th').text
         line_bot_api.reply_message(reply_token,TextSendMessage(text=result))
 ```
+* 根據貨幣名稱抓取匯率數據
+```python
+tlist = ['現金買入','現金賣出','即期買入','即期賣出']
+    currency = message
+    show = currency + '匯率:\n'
+    if currency in keys:
+        for i in range(4):
+            exchange = float(twder.now(currencies[currency])[i+1])
+            if i!=3:
+                show = show + tlist[i] + ':' + str(exchange) + '\n'
+            else:
+                show = show + tlist[i] + ':' + str(exchange)
+        line_bot_api.reply_message(reply_token,TextSendMessage(text=show))
+    #print(show)
+    '''else:
+        line_bot_api.reply_message(reply_token,TextSendMessage(text="無此貨幣資料!"))
+        #print('無此貨幣資料!')'''
+```
 ## Results
 * 說明輸入格式
   * 查詢匯率
