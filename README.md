@@ -4,10 +4,10 @@
 
  ![image](https://user-images.githubusercontent.com/51864985/122884482-ca5fb580-d370-11eb-8523-c6831ffa07f4.png)
 
-* 將程式部署到Heroku
-  * 新增Procfile，告訴Heroku如何啟動這個app
-  * 新增requirements.txt，告訴Heroku這個app的環境需要哪些其他套件
-  * 新增runtime.txt，告訴Heroku這個app指定的python版本
+* LINE Bot專案設定
+  * Procfile，告訴Heroku如何啟動這個app
+  * requirements.txt，告訴Heroku這個app的環境需要哪些其他套件
+  * runtime.txt，告訴Heroku這個app指定的python版本
 ## Introduction
 * 主題發想來源：在出遊的時候常常會遇到各種奇怪的問題，像是不知道當地天氣如何或是花完外幣但還想繼續購物，基於以上種種原因讓我想製作一個旅遊機器人。
 
