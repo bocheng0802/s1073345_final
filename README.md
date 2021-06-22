@@ -51,6 +51,57 @@ def callback():
         abort(400)
     return 'OK
 ```
+* 獲取縣市天氣資料
+```python
+def get(city):
+    token = 'CWB-E86446FB-80A5-4626-B3FD-A61BBE114060'
+    url = 'https://opendata.cwb.gov.tw/api/v1/rest/datastore/F-C0032-001?Authorization=' + token + '&format=JSON&locationName=' + str(city)
+    Data = requests.get(url)
+    Data = (json.loads(Data.text,encoding='utf-8'))['records']['location'][0]['weatherElement']
+    res = [[] , [] , []]
+    for j in range(3):
+        for i in Data:
+            res[j].append(i['time'][j])
+    return res
+```
+* 根據代號選擇翻譯語言
+```python
+@handler.add(MessageEvent)
+def handle_message(event):
+    message_type = event.message.type
+    user_id = event.source.user_id
+    reply_token = event.reply_token
+    message = event.message.text
+    
+    a=[]
+    text=message
+    a=text.split(':',1)
+    translator = Translator()
+    if (a[0]=='0'):
+        result = translator.translate(a[1],dest='zh-TW').text
+        line_bot_api.reply_message(reply_token,TextSendMessage(text=result))
+    elif (a[0]=='1'):
+        result = translator.translate(a[1],dest='en').text
+        line_bot_api.reply_message(reply_token,TextSendMessage(text=result))
+    elif (a[0]=='2'):
+        result = translator.translate(a[1],dest='ja').text
+        line_bot_api.reply_message(reply_token,TextSendMessage(text=result))
+    elif (a[0]=='3'):
+        result = translator.translate(a[1],dest='ko').text
+        line_bot_api.reply_message(reply_token,TextSendMessage(text=result))
+    elif (a[0]=='4'):
+        result = translator.translate(a[1],dest='fr').text
+        line_bot_api.reply_message(reply_token,TextSendMessage(text=result))
+    elif (a[0]=='5'):
+        result = translator.translate(a[1],dest='de').text
+        line_bot_api.reply_message(reply_token,TextSendMessage(text=result))
+    elif (a[0]=='6'):
+        result = translator.translate(a[1],dest='ru').text
+        line_bot_api.reply_message(reply_token,TextSendMessage(text=result))
+    elif (a[0]=='7'):
+        result = translator.translate(a[1],dest='th').text
+        line_bot_api.reply_message(reply_token,TextSendMessage(text=result))
+```
 ## Results
 * 說明輸入格式
   * 查詢匯率
